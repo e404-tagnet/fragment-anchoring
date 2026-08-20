@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="card">
+  <h2>Search by text</h2>
+  <form method="post" action="{{ url_for('search') }}">
+    <textarea name="text" placeholder="Enter text to locate"></textarea>
+    <p><button type="submit">Search</button></p>
+  </form>
+</div>
+<div class="card">
+  <h2>Browse by address</h2>
+  <form method="post" action="{{ url_for('browse') }}">
+    <input name="address" placeholder="hexagon:wall:shelf:volume:page">
+    <p><button type="submit">Browse</button></p>
+  </form>
+</div>
+<div class="card">
+  <h2>Snippet search</h2>
+  <form method="post" action="{{ url_for('snippet') }}">
+    <textarea name="text" placeholder="Enter a snippet"></textarea>
+    <p><button type="submit">Find snippet</button></p>
+  </form>
+</div>
+<div class="card">
+  <h2>Random page</h2>
+  <form method="post" action="{{ url_for('random_page') }}">
+    <input name="seed" placeholder="Seed text">
+    <p><button type="submit">Generate random page</button></p>
+  </form>
+</div>
+{% endblock %}

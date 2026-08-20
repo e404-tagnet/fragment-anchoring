@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Flask / runtime
+tmp/
+*.log
+.env
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Backups and generated files
+*.bak
+*.tmp
+experiment_logs/
+*.xlsx

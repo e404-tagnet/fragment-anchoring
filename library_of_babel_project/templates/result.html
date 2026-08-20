@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="card">
+  <h2>{{ title }}</h2>
+  <p><strong>Address:</strong> {{ address }}</p>
+  <p><a class="btn" href="{{ url_for('download_file') }}">Download text file</a></p>
+  <pre>{{ content }}</pre>
+  <p><a class="btn" href="{{ url_for('home') }}">Back</a></p>
+</div>
+{% endblock %}
