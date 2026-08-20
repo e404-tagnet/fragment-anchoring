@@ -44,7 +44,6 @@ Up to 3200 characters using only: `a–z`, space, comma, and period.
 hello world
 ```
 
----
 
 ### 2) Browse by address
 
@@ -66,7 +65,6 @@ All numbers must be in valid ranges (1‑based).
 - The full page text (3200 characters) for that address.  
 - The same address shown above the text.
 
----
 
 ### 3) Snippet search
 
@@ -85,7 +83,6 @@ A short phrase or sentence using only `a–z`, space, comma, and period.
 the quick brown fox
 ```
 
----
 
 ### 4) Random page
 
@@ -102,7 +99,6 @@ my secret seed 123
 - A label like `seed:my secret seed 123`.  
 - A 3200‑character pseudo‑random page generated from that seed.
 
----
 
 ## Notes
 

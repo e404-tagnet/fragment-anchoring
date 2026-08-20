@@ -62,7 +62,6 @@ This is a work in progress. Stage One (embedding convergence) and Stage Two (fra
 GPL-3.0. See [LICENSE](./LICENSE).
 
 <!-- TAGNET README FOOTER — start -->
----
 
 <div align="center">
 
